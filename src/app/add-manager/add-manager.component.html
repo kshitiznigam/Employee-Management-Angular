@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+<div id="container">
+  <div id="all-input-box">
+    <input
+      type="text"
+      placeholder="Enter Your Name"
+      name="name"
+      [(ngModel)]="name"
+    />
+    <input
+      type="number"
+      placeholder="Create an ID"
+      name="empid"
+      [(ngModel)]="empid"
+    />
+    <input
+      type="email"
+      placeholder="Enter Your Email"
+      name="emailid"
+      [(ngModel)]="emailid"
+    />
+    <input
+      type="password"
+      placeholder="Create Password"
+      name="password"
+      [(ngModel)]="password"
+    />
+    <input
+      type="number"
+      placeholder="Enter Your Phone Number"
+      name="phoneno"
+      [(ngModel)]="phoneno"
+    />
+    <button (click)="submitForm()">SignUp</button>
+  </div>
+</div>
